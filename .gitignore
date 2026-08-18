@@ -1,0 +1,20 @@
+# Backend (Python / uv)
+backend/__pycache__/
+backend/**/__pycache__/
+*.py[cod]
+backend/.venv/
+backend/.pytest_cache/
+backend/.ruff_cache/
+*.db
+
+# Frontend (Node / bun / Vite)
+frontend/node_modules/
+frontend/dist/
+*.local
+
+# Credentials — never committed, .env.example is the exception
+.env
+.env.*
+!.env.example
+*.pem
+*.key

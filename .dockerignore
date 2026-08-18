@@ -1,0 +1,15 @@
+# Neither toolchain nor secrets nor history belong in the build context.
+.git
+**/.env
+**/.env.*
+!**/.env.example
+
+backend/.venv
+backend/__pycache__
+backend/**/__pycache__
+backend/.pytest_cache
+backend/.ruff_cache
+backend/*.db
+
+frontend/node_modules
+frontend/dist

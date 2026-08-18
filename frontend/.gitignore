@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.local
+.env
+.env.*
+!.env.example
+
+# Credentials — added by RemHarness
+*.pem
+*.key
